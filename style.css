@@ -1,0 +1,302 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.donate-image{
+    height: 600px;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/donation5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.header{
+    text-align: center;
+    padding:  0 350px;
+
+}
+
+.main-title{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 150px;
+    text-shadow: 2px 2px rgb(245, 2, 2);
+}
+
+.main-des{
+    color: white;
+    text-shadow: 1px 1px coral;
+}
+
+.button{
+    margin-top: 40px;
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(240, 79, 79);
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 10px;
+    text-shadow: 3px 2px black;
+    border-style: none;
+    margin-bottom: 60px;
+}
+
+/* MAIN SECTION */
+
+.main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.para2{
+    margin: 0 350px;
+    color: #757575;
+    
+}
+
+.amount-selector {
+   text-align: center
+}
+
+.custom-radio input{
+    display: none;
+}
+
+.hundred input{
+    display: none;
+}
+.hundred{ 
+    margin: 10px;
+    width: 180px;
+    height: 100px;
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px #757575;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+
+.checkmark{ 
+   
+    font-size: 50px;
+    color: orangered;
+    text-shadow: 3px 2px black;
+}
+
+.twohundred{
+    font-size: 50px;
+    color: orangered;
+    text-shadow: 3px 2px black;
+}
+
+.fivehundred{
+    font-size: 50px;
+    color: orangered;
+    text-shadow: 3px 2px black;
+}
+
+.thousand{
+    font-size: 50px;
+    color: orangered;
+    text-shadow: 3px 2px black;
+}
+
+.custom-amount{
+    text-align: center;
+    margin: 40px 300px;
+    color: #757575;
+}
+ 
+.donate-plan{
+    text-align: center;
+}
+.donate-plan-heading{
+    font-size: 35px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+.donate-plan-des{
+    color: #757575;
+    margin: 0px 350px;
+}
+
+.food-sheltar-edu{
+    display: flex;
+    gap: 30px;
+}
+
+.food{
+    margin-top: 100px;
+    background-color: rgb(207, 211, 211);
+    margin-left: 100px;
+   
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+ 
+.food-img{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.food-title{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.food-des{
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.sheltar{
+    margin-top: 100px;
+    background-color: rgb(238, 216, 219);
+    
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.edu{
+    margin-top: 100px;
+    background-color: rgb(243, 243, 219);
+    
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 100px;
+}
+
+
+ /* THEIR LIVES & SURVIVE */
+
+
+
+ .their-lives-img{
+  position: absolute;
+width: 456px;
+height: 477px;
+left: 732px;
+ margin-top: 150px;
+ border-radius: 7px;
+
+ }
+ .baal{
+    position: absolute;
+width: 493px;
+height: 374px;
+left: 156px;
+
+ }
+ .their-lives-title{
+    margin-top: 250px;
+     font-size: 40px;
+     
+ }
+
+ .their-lives-des1,.their-lives-des2{
+     margin-top: 30px;
+     color: #757575;
+ }
+
+ .their-survive-img{
+    position: absolute;
+width: 456px;
+height: 477px;
+left: 156px;
+margin-top: 700px;
+border-radius: 7px;
+ }
+
+ .baal2{
+    position: absolute;
+width: 482px;
+height: 374px;
+left: 706px;
+margin-top: 600px ;
+
+ }
+
+ /* FOOTER-SECTION */
+
+ .footer-main{
+    text-align: center;
+    margin-top: 1300px;
+ }
+
+ .footer-title{
+    font-size: 40px;
+    font-weight: 700;
+ }
+
+ .footer-des{
+    color: #757575;
+    margin: 20px 350px;
+ }
+
+ .email{
+    text-align: center;
+    margin-top: 150px;
+    background-color: #FFF4D6;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 60px 0;
+ }
+
+ .email input{
+    position: absolute;
+width: 432px;
+height: 48px;
+left: 380px;
+ margin-top: -25px;
+background-color: #D9D9D9;
+border-radius: 10px;
+border-style: none;
+ }
+
+ .button2{
+    position: absolute;
+width: 100px;
+height: 48px;
+left: 830px;
+margin-top: -85px;
+background-color: rgb(240,79,79);
+border-style: none;
+border-radius: 5px;
+
+ }
+
+
+ .footer-end{
+    text-align: center;
+    margin-top: 200px;
+    background-color: black;
+    padding: 50px 0;
+ }
+
+ .footer-end-title{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(240, 79, 79);
+ }
+ .footer-end-des{
+    font-family: sans-serif;
+    color: white;
+ }
+
+ 
